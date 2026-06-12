@@ -1,5 +1,16 @@
 public class Main {
 
+    /**
+     * Returns the nth Fibonacci term using recursion.
+     *
+     * Sequence:
+     * F(0) = 0
+     * F(1) = 1
+     * F(n) = F(n - 1) + F(n - 2)
+     *
+     * @param n the position in the Fibonacci sequence
+     * @return the Fibonacci value at position n
+     */
     public static int fibonacci(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("n must be non-negative.");
